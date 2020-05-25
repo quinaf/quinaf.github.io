@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Treinando HTML e CSS</title>
+		<link rel="stylesheet"  href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<!--Menu-->		
+		<nav id="cab" class="navbar navbar-expand-lg fixed-back bg-dark navbar-dark bordered">
+			<a href="#" class="navbar-brand"><img id="l" class="img-thumbnail" src="marca.jpg"></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!--Links do Menu-->
+			<div id="menu" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-md-auto">
+					<li class="nav-item active"><a id="cor1" class="nav-link" href="https://www.facebook.com/lucasmoraistorres" >Home</a></li>
+					<li class="nav-item active"><a id="cor2" class="nav-link" href="#">Pedidos</a></li>
+					<li class="nav-item active"><a id="cor3" class="nav-link" href="#">Serviços</a></li>
+					<li class="nav-item active"><a id="cor4" class="nav-link" href="#">Fale Conosco</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!--Slogan-->
+		<div id="gan"class="container">
+			<h1 class="display-4">Sua familia protegida automaticamente</h1><br><br>
+		</div>
+		<!--
+		<div class= "dropdown" > <button class= "btn btn-secondary dropdown-toggle" type= "button" id= "dropdownMenuButton" data-toggle= "dropdown" aria-haspopup= "true" aria-expanded= "false" > Dropdown button </button> <div class= "dropdown-menu" aria-labelledby= "dropdownMenuButton" > <a class= "dropdown-item" href= "#" > Action </a> <a class= "dropdown-item" href= "#" > Another action </a> <a class= "dropdown-item" href= "#" > Something else here </a> </div> </div>-->
+		<!--Imagem Inicial-->
+		<div id="imagem" class="container">
+			<img src= "banner.png" class="img-thumbnail" class="img-fluid"alt= "Responsive image"> 
+			<br><br>
+		</div>
+		<div class="container-fluid">
+			<h3>DIFERENCIAIS DA AUTOMASEG</h3>
+			<h1>CONHEÇA NOSSOS DIFERENCIAIS!</h1>
+			<p>A Mais Segurança tem as melhores soluções em<br> sistemas de segurança, oferecendo os melhores<br> serviços de Monitoramento de alarme com<br> imagens 24h. Resposta Imediata. Recebemos o<br> alerta, entramos em contato com você e<br> comunicamos os órgãos competentes.</p>
+			<ul id="lista">
+				<li>Atendimento Técnico 24 horas</li>
+				<li>Teste Diário de Funcionamento</li>
+				<li>Ronda Motorizada</li>
+				<li>Ronda Virtual</li>
+			</ul>
+		</div>
+		<div id="ini" class="container">
+			<h3>Indice de criminalidade no Brasil</h3>
+			<p>A sensação de insegurança no Brasil não é sem fundamento. Somos, de fato, um dos países mais violentos da América Latina, que por sua vez é a região mais violenta do globo. Em uma pesquisa da Organização das Nações Unidas, realizada com dados de 1997, o Brasil ficou com o preocupante terceiro lugar entre os países com as maiores taxas de assassinato por habitante. Na quantidade de roubos, somos o quinto colocado. A situação seria ainda pior se fossem comparados os números isolados de algumas cidades e regiões metropolitanas, onde há o dobro de crimes da média nacional. São Paulo, por exemplo, já ultrapassou alguns notórios campeões da desordem, como a capital da Colômbia, Bogotá.</p>
+
+		</div>
+
+		<!--indicadores de ciminalidade-->
+		<div class="container">
+			<table class="table table-striped table-bordered table-hover">
+				<thead class="thead">
+					<tr>
+						<th>Tipo</th>
+						<th>Porcentagem</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="table-active">
+						<td>Roubo a Transeunte</td>
+						<td>26.37%</td>
+					</tr>
+					<tr class="table-active">
+						<td>Roubo a Veículos</td>
+						<td>25.92%</td>
+					</tr>
+					<tr class="table-active">
+						<td>Roubo a Comércios</td>
+						<td>33.64%</td>
+					</tr>
+					<tr class="table-active">
+						<td>Roubo a Residência</td>
+						<td>50%</td>
+					</tr>
+
+				</tbody>
+			</table><br><br>
+		</div>
+		<!-- efeito acordeão-->
+		<div class="container">
+		 	<div class= "accordion" id= "acordeon" > 
+		 		<div id="sanfona1" class= "card" > 
+		 			<div class= "card-header" id= "headingOne" > <h2 class= "mb-0" > <button class= "btn btn-link btn-block text-left" type= "button" data-toggle= "collapse" data-target= "#primeiro" aria-expanded= "true" aria-controls= "primeiro" >Segurança Residêncial</button> </h2> 
+		 			</div> 
+		 				<div id= "primeiro" class= "collapse show" aria-labelledby= "headingOne" data-parent= "#acordeon" > 
+		 					<div class= "card-body">O monitoramento de alarme residencial é uma medida de segurança que oferece tranquilidade a todos os moradores do imóvel. Isso porque a tecnologia permite acesso em tempo real aos dados referentes a disparo de alarme e câmeras de monitoramento, garantindo proteção 24 horas para toda a família e para o patrimônio.</div>
+		 				</div> 
+		 		</div> 
+		 			<div id="sanfona2" class= "card"> 
+		 				<div class= "card-header" id= "headingTwo" > <h2 class= "mb-0" > <button class= "btn btn-link btn-block text-left collapsed" type= "button" data-toggle= "collapse" data-target= "#segundo" aria-expanded= "false" aria-controls= "segundo" >Segurança Condominial</button> </h2> 
+		 				</div> 
+		 				<div id= "segundo" class= "collapse" aria-labelledby= "headingTwo" data-parent= "#acordeon" > 
+		 					<div class= "card-body">A importância de manter a segurança no condomínio está cada vez maior. ... Um dos principais lugares para se ter maior seguridade é na portaria, já que é o meio de entrada e saída de todos os moradores. Os sistemas eletrônicos estão em alta: eles simplificam as tarefas com maior agilidade e eficiência.
+</div> 
+		 				</div> 
+		 			</div> 
+		 			<div id="sanfona3"class= "card" > 
+		 				<div class= "card-header" id= "headingThree" > <h2 class= "mb-0" > <button class="btn btn-link btn-block text-left collapsed" type= "button" data-toggle= "collapse" data-target= "#terc" aria-expanded= "false" aria-controls= "terc" > Segurança Comercial</button> </h2>
+		 				</div> 
+		 				<div id= "terc" class= "collapse" aria-labelledby= "headingThree" data-parent= "#acordeon" > 
+		 					<div class= "card-body">Entenda a importância da Segurança Patrimonial. ... Contratar o serviço de segurança patrimonial pode trazer muitos benefícios para sua empresa. Além de ser uma forma de prevenção a roubos, acidentes ao estabelecimento, garante também a integridade física de frequentadores.
+</div> 
+		 				</div> 
+		 			</div> 
+		 	</div>
+		</div> 
+		
+
+		<!--Criando os Cards-->
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div id="cartao1" class="card">
+						<img src="casa.png" height="200px" class="Card-img-top">
+						<div class="card-body">
+							<h5>Segurança Residêncial</h5>
+							<p class="card-text">Obtenha auxilio para a contratação deste serviço exclusivo e mantenha sua Residência protegida.</p>
+							<a id="btn1" href="#" class="btn btn-dark">Clique aqui</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div id="cartao2" class="card">
+						<img src="cond.png" height="200px" class="Card-img-top">
+						<div class="card-body">
+							<h5>Segurança Condominial</h5>
+							<p class="card-text">Obtenha auxilio para a contratação deste serviço exclusivo e mantenha seu Condominio protegida.</p>
+							<a id="btn2" href="#" class="btn btn-dark">Clique aqui</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div id="cartao3" class="card">
+						<img src="com.png" height="200px" class="Card-img-top">
+						<div class="card-body">
+							<h5>Segurança Patrimonial</h5>
+							<p class="card-text">Obtenha auxilio para a contratação deste serviço exclusivo e mantenha seus empreendimentos protegido.</p>
+							<a id="btn3" href="#" class="btn btn-dark">Clique aqui</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<footer>
+			<p>Todos os direitos reservados: ME CHUPA</p>
+			<script src="js/jquery.js"></script>
+			<script src="js/bootstrap.bundle.min.js"></script>
+		</footer>
+	</body>
+</html>

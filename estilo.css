@@ -1,0 +1,152 @@
+# quinaf.github.io
+Teste para estudos
+body{
+	background-color: #E0FFFF;
+}
+
+.nav-item{
+	/*#4169E1*/
+	padding: 20px;
+	background-color: #00CED1;
+	border-radius: 100px;
+	text-decoration-color: black;
+	font-size: 20px;
+	font-family: cursive;
+	
+}
+.nav-item:hover{
+	padding: 50px;
+	background-color: white;
+	border-radius: 150px;
+	font-family: cursive;
+	
+}
+#cor1{
+	color: black;
+}
+#cor2{
+	color: black;
+}
+#cor3{
+	color: black;
+}
+#cor4{
+	color: black;
+}
+#cor1:hover{
+	color: #483D8B;
+	text-decoration: underline;
+}
+#cor2:hover{
+	color: #483D8B;
+	text-decoration: underline;
+}
+#cor3:hover{
+	color: #483D8B;
+	text-decoration: underline;
+}
+#cor4:hover{
+	color: #483D8B;
+	text-decoration: underline;
+}
+#gan{
+	padding: 100px 0 30px 0;
+	text-align: center;
+	color: black;
+	font-family: cursive;;
+
+}
+.container-fluid{
+	padding: 40px 0 20px 150px;
+}
+.img-thumbnail{
+	background-color: #ADD8E6;
+}
+#l{
+	background-color: black;
+}
+h3{
+
+	font-family: helvetica;
+	padding: 0 0 15px 0;
+}
+h1{
+
+	font-family: sans-serif;
+	color: #008B8B;
+}
+p{
+	font-family: helvetica;
+	color: black;
+
+}
+#lista{
+	font-family: helvetica;
+	color: black;
+	padding: 0 0 40px 30px;
+}
+#ini{
+	font-family: serif;
+	color: #008B8B;
+}
+.thead{
+	background-color: black;
+	color: white;
+}
+.table{
+	background-color: #40E0D0;
+	color: black;
+}
+.card-body{
+	background-color: #98FB98;
+	color: black;
+	font-family: helvetica;
+}
+#primeiro{
+	color: black;
+}
+#sanfona1{
+	background-color: #5F9EA0;
+}
+
+#sanfona2{
+	background-color: #5F9EA0;
+}
+#sanfona3{
+	color: red;
+	background-color: #5F9EA0;
+}
+.btn{
+	color: black;
+	font-size: 25px;
+	font-family: helvetica;
+}
+.row{
+	padding: 100px;
+}
+#cartao1{
+	border-color: black;
+}
+#cartao2{
+	border-color: black;
+}
+#cartao3{
+	border-color: black;
+}
+#btn1{
+	border-color: black;
+	background-color: #5F9EA0;
+}
+#btn2{
+	border-color: black;
+	background-color: #5F9EA0;
+}
+#btn3{
+	border-color: black;
+	background-color: #5F9EA0;
+}
+footer{
+	background-color: grey;
+	text-align: center;
+	padding: 20px;
+}
